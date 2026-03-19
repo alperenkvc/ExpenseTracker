@@ -1,8 +1,8 @@
-# 💰 Expense Tracker App
+# Expense Tracker App
 
 A full-stack personal finance management application built with React, Node.js, and MongoDB. Track your income, expenses, and get insights into your spending patterns with beautiful charts and analytics.
 
-## ✨ Features
+## Features
 
 - **User Authentication**: Secure login/signup with JWT tokens
 - **Income Management**: Add, view, and delete income entries
@@ -10,30 +10,22 @@ A full-stack personal finance management application built with React, Node.js, 
 - **Dashboard Analytics**: Visual charts showing spending trends and financial overview
 - **Transaction History**: Complete record of all financial activities
 - **Data Export**: Download income and expense data as Excel files
-- **Profile Management**: Update profile information and upload profile photos
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
-- **React 19** - Modern React with latest features
-- **Vite** - Fast build tool and dev server
-- **Tailwind CSS** - Utility-first CSS framework
-- **Recharts** - Beautiful and customizable charts
-- **React Router** - Client-side routing
-- **Axios** - HTTP client for API calls
-- **React Hot Toast** - Elegant notifications
+- **React 19**
+- **Tailwind CSS**
+- **Recharts**
 
 ### Backend
 - **Node.js** - JavaScript runtime
 - **Express.js** - Web application framework
 - **MongoDB** - NoSQL database
-- **Mongoose** - MongoDB object modeling
 - **JWT** - JSON Web Token authentication
-- **Multer** - File upload handling
-- **XLSX** - Excel file generation
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -78,7 +70,7 @@ A full-stack personal finance management application built with React, Node.js, 
    - Frontend: http://localhost:5173
    - Backend: http://localhost:5000
 
-## ⚙️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -104,7 +96,7 @@ VITE_API_BASE_URL=http://localhost:5000
 1. **Local MongoDB**: Install and start MongoDB locally
 2. **MongoDB Atlas**: Create a free cluster and get your connection string
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 expense-tracker-app/
@@ -150,7 +142,7 @@ expense-tracker-app/
 - `GET /api/v1/dashboard` - Get dashboard data
 - `GET /api/v1/dashboard/transactions` - Get all transactions
 
-## 🎨 Key Components
+## Key Components
 
 - **FinanceOverview**: Main dashboard with financial summary
 - **CustomCharts**: Beautiful visualizations using Recharts
